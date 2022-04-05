@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-image: url(https://cdn.create.vista.com/api/media/medium/308814858/stock-photo-milky-way-rise-dark-forest?token=);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+}
+
+.principal, .details {
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  text-align: center;
+  margin-top: 15px;
+  padding: 55px;
+}
+
+.full-date {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.temp {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 1px 1px rgb(114, 114, 114);
+}
+
+.button {
+  transition: 0.5s;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 4px 10px;
+  font-size: medium;
+  font-weight: bold;
+  background-color: orange;
+  box-shadow: 1px 1px rgb(114, 114, 114);
+}
+
+.button:hover {
+  transition: 0.5s;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(194, 72, 1);
+}
+
+.weather-name {
+  font-family: cursive;
+}
+
+.img {
+  border: 2px solid #fff;
+  box-shadow: 1px 1px rgb(114, 114, 114);
+  border-radius: 70px;
+  padding: 15px;
+  background-color: lightskyblue;
+}
+
+.scroll {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: content-box;
+  font-size: 20px;
+  border: 7px double #fff;
+  border-top: dashed;
+  margin: 30px auto;
+  padding: 5px 30px;
+}
+
+.w-det p {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 30px;
+}
+
+.footer {
+  background-color: lightblue;
+  color: #000;
+  font-size: small;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.f-f {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
