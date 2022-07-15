@@ -23,7 +23,6 @@ function App() {
   const [windSpeed, setWindSpeed] = useState(0);
   const [feelsLike, setFeelsLike] = useState('');
   const [visibility, setVisibility] = useState('');
-  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     navigator.geolocation.getCurrentPosition((pos) => {
@@ -44,11 +43,6 @@ function App() {
           setVisibility(res.data.visibility);
         })
     })
-
-    setIsLoading(true);
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 2500);
   }, []);
 
   return (
