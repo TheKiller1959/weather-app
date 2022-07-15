@@ -5,7 +5,7 @@
 }
 
 .App {
-  background-image: url(https://cdn.create.vista.com/api/media/medium/308814858/stock-photo-milky-way-rise-dark-forest?token=);
+  background-image: url(../images/background.jpeg);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,8 @@
   color: #fff;
 }
 
-.principal, .details {
+.principal,
+.details {
   display: flex;
   flex-direction: column;
   font-size: large;
@@ -52,25 +53,51 @@
 }
 
 .weather-name {
-  font-family: cursive;
+  font-family: monospace;
 }
 
 .img {
   border: 2px solid #fff;
   box-shadow: 1px 1px rgb(114, 114, 114);
   border-radius: 70px;
-  padding: 15px;
+  padding: 10px;
+  margin: 10px;
   background-color: lightskyblue;
 }
 
 .scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   box-sizing: content-box;
   font-size: 20px;
+  margin: 1rem auto;
+  padding: 15px 30px;
+}
+
+.scroll p {
   border: 7px double #fff;
   border-top: dashed;
-  margin: 30px auto;
-  padding: 5px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px rgb(114, 114, 114);
+  max-width: fit-content;
+  padding: 4px 1rem;
+}
+
+.w-det {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: large;
+  text-align: center;
+  padding: 10px 5rem;
+  border-radius: 30px;
+  background-color: rgb(0, 0, 0, 0.3);
 }
 
 .w-det p {

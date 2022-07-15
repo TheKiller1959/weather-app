@@ -1,6 +1,4 @@
-import '../App.css'
-
-const FullDate = ({date, dt, mn}) => {
+const FullDate = ({ date, dt, mn }) => {
 
   const data = new Date(date * 1000);
   const day = data.getDay();
