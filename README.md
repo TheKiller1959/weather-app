@@ -35,7 +35,7 @@ npm run test
 
 👤 **TheKiller1959**
 
-* Website: https://thekiller1959dev.netlify.app
+* Website: https://thekiller1959.github.io/portfolio/
 * Twitter: [@thekiller1959](https://twitter.com/thekiller1959)
 * Github: [@thekiller1959](https://github.com/thekiller1959)
 * LinkedIn: [@wilmar-rodriguez-a72635231](https://linkedin.com/in/wilmar-rodriguez-a72635231)
